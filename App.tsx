@@ -16,7 +16,7 @@ import {
   Plus,
   ArrowLeft,
 } from "lucide-react";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import Bridge from "./imports/Bridge";
 
 // Define workflow stages

@@ -1,4 +1,8 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
 @custom-variant dark (&:is(.dark *));
+
 
 :root {
   --font-size: 14px;

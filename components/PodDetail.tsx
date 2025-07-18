@@ -9,7 +9,7 @@ import { Textarea } from './ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from './ui/dialog';
 import { ArrowLeft, Clock, Calendar, Users, Link, CheckCircle, Circle, Edit2, Send, X, Timer, ArrowRight, Crown, FileText, RefreshCw, Plus, ClipboardList, ExternalLink, Tag, Lightbulb, PenTool, Monitor, Server, Bug, Megaphone, Settings, User } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Task {
   id: string;
