@@ -472,11 +472,11 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
   const [password, setPassword] = useState("");
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center ">
       <Card className="w-full max-w-md p-6">
         <div className="text-center mb-6">
           <div className="flex items-center justify-center space-x-3 mb-2">
-            <div className="w-8 h-8">
+            <div className="w-8 h-8 ">
               <Bridge />
             </div>
             <h1 className="text-2xl font-bold">
